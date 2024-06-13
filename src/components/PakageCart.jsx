@@ -2,13 +2,13 @@ import React from "react";
 
 const PakageCart = () => {
   return (
-    <div className="w-[39.5%] ml-40 rounded-t-lg shadow-xl absolute top-96  left-0 ">
+    <div className="w-[39.5%] ml-40 rounded-t-lg shadow-xl absolute top-96  left-0 border border-red-800">
       <div className="bg-[#083248] text-white text-center py-4 rounded-t-lg ">
         <h1 className="font-semibold text-3xl">PLEASE SELECT YOUR PACKAGE</h1>
         <p>Once your order is placed, we'll reach out to you shortly.</p>
       </div>
       <div className="flex justify-around p-6 text-center bg-white">
-        <div className="w-[43%] shadow-lg pb-8">
+        <div className="w-[45%] shadow-lg pb-8">
           <h1 className="bg-[#e8ad48] font-semibold text-xl px-8 py-4">
             BUSINESS PRO WEBSITE
           </h1>
@@ -30,7 +30,7 @@ const PakageCart = () => {
           <p className="p-2 pb-6 w-[80%] m-auto">SEO Optimized Design</p>
           <button className="p-2 px-6 font-medium bg-[#e8ad48] rounded text-white">START NOW</button>
         </div>
-        <div className="w-[43%] shadow-lg pb-8 ">
+        <div className="w-[45%] shadow-lg pb-8 ">
           <h1 className="bg-[#3eb3e7] font-semibold text-xl px-8 py-4">
             E_COMMERCE WEBSITE
           </h1>
