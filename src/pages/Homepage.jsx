@@ -9,6 +9,9 @@ const Homepage = () => {
       <Banner />
       <PakageCart />
       <Features/>
+      <div>
+        <h1> heyyy</h1>
+      </div>
     </div>
   );
 };

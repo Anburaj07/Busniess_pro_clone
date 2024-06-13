@@ -2,7 +2,7 @@ import React from "react";
 
 const PakageCart = () => {
   return (
-    <div className="w-[39.5%] ml-40 rounded-t-lg shadow-xl absolute top-96  left-0 border border-red-800">
+    <div className="w-[39.5%] ml-40 rounded-t-lg shadow-xl absolute top-96  left-0 ">
       <div className="bg-[#083248] text-white text-center py-4 rounded-t-lg ">
         <h1 className="font-semibold text-3xl">PLEASE SELECT YOUR PACKAGE</h1>
         <p>Once your order is placed, we'll reach out to you shortly.</p>
