@@ -4,7 +4,7 @@ import line from "../images/line.jpg";
 
 const Info = () => {
   return (
-    <div className="w-[81%] m-auto flex justify-around items-center ">
+    <div className="w-[81%] m-auto flex justify-around items-center">
       <div className="w-[49%]">
         <p className="ml-8">
           *Monthly maintenance fee required to host your website and keep it up

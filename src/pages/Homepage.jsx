@@ -4,6 +4,7 @@ import PakageCart from "../components/PakageCart";
 import Navbar from "../components/Navbar";
 import Features from "../components/Features";
 import Info from "../components/Info";
+import Mission from "../components/Mission";
 const Homepage = () => {
   return (
     <div className="">
@@ -11,6 +12,7 @@ const Homepage = () => {
       <PakageCart />
       <Features/>
       <Info/>
+      <Mission/>
       <div className="h-96"> 
 
       </div>
