@@ -3,11 +3,11 @@ import banner from "../images/banner.png";
 import medal from "../images/medal.png";
 const Banner = () => {
   return (
-    <div className="flex justify-center bg-[#dcf1f7]">
-      <div className="w-[40%] p-4 mt-6 border border-gray-700">
-          <p className="text-sm bg-[#1e9eb9] p-1.5 text-white w-[90%] shadow-md">
-            ELEVATE YOUR BRAND: PROFESSIONALLY CRAFTED WEBSITE FOR YOUR BUSINESS
-          </p>
+    <div className="flex justify-center bg-[#dcf1f7] relative inline-block ">
+      <div className="w-[40%] p-4 mt-6">
+        <p className="text-sm bg-[#1e9eb9] p-1.5 text-white w-[90%] shadow-md">
+          ELEVATE YOUR BRAND: PROFESSIONALLY CRAFTED WEBSITE FOR YOUR BUSINESS
+        </p>
         <h1 className="font-semibold text-4xl p-2 pb-4">
           LET’S BUILD AN EXCEPTIONAL WEBSITE TOGETHER.
         </h1>
@@ -17,12 +17,11 @@ const Banner = () => {
           rate to support small businesses in building their online presence.
         </p>
       </div>
-      <div className="w-[40%] relative inline-block border border-gray-700">
+      <div className="w-[40%] relative inline-block">
         <div className="absolute top-10 left-0 w-[29%] h-16">
-            
-        <img src={medal} alt="medal"/>
+          <img src={medal} alt="medal" />
         </div>
-        <img src={banner} alt="banner" className="block"/>
+        <img src={banner} alt="banner" className="block" />
       </div>
     </div>
   );
