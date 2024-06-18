@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import Info from "../components/Info";
 import Mission from "../components/Mission";
 import SlidingImages from "../components/SlidingImages";
+import Solutions from "../components/Solutions";
 const Homepage = () => {
   return (
     <div className="">
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Info/>
       <Mission/>
       <SlidingImages/>
+      <Solutions/>
       <div className="h-96"> 
 
       </div>
