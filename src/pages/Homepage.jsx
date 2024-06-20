@@ -12,6 +12,7 @@ import ad from "../images/ad.jpg"
 import Makelots from "../components/Makelots";
 import Feedback from "../components/Feedback";
 import EffectiveWeb from "../components/EffectiveWeb";
+import FAQ from "../components/FAQ";
 const Homepage = () => {
   return (
     <div className="">
@@ -29,6 +30,7 @@ const Homepage = () => {
       <Makelots/>
       <Feedback/>
       <EffectiveWeb/>
+      <FAQ/>
       <div className="h-96"> 
 
       </div>
