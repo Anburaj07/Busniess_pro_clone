@@ -39,12 +39,16 @@ const Rating = ({ rating }) => (
   <p className="font-bold text-2xl pb-4">{`⭐️`.repeat(rating)}</p>
 );
 
-const TestimonialCard = ({ img, rating, feedback, name, title, logo,ind }) => (
+const TestimonialCard = ({ img, rating, feedback, name, title, logo, ind }) => (
   <div className="w-[32%]">
     <div className="rounded-full w-[30%] m-auto">
       <img src={img} alt={name} />
     </div>
-    <div className={`bg-[#efefef] pt-14 p-3 -mt-8 text-center ${ind=="true"&& 'shadow-custom'}`}>
+    <div
+      className={`bg-[#efefef] pt-14 p-3 -mt-8 text-center ${
+        ind == "true" && "shadow-custom leading-loose "
+      } `}
+    >
       <Rating rating={rating} />
       <p className="text-[#727272] leading-relaxed">{feedback}</p>
       <div className="mt-8">
@@ -71,7 +75,11 @@ const Feedback = () => {
       </div>
       <div className="w-[66%] m-auto mt-16 flex justify-between">
         {testimonials.map((testimonial, index) => (
-          <TestimonialCard key={index} {...testimonial} ind={index==1 &&"true"}/>
+          <TestimonialCard
+            key={index}
+            {...testimonial}
+            ind={index == 1 && "true"}
+          />
         ))}
       </div>
     </div>

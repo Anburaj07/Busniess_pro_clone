@@ -8,28 +8,31 @@ import Mission from "../components/Mission";
 import SlidingImages from "../components/SlidingImages";
 import Solutions from "../components/Solutions";
 import Professtional from "../components/Professtional";
-import ad from "../images/ad.jpg"
+import ad from "../images/ad.jpg";
 import Makelots from "../components/Makelots";
 import Feedback from "../components/Feedback";
+import EffectiveWeb from "../components/EffectiveWeb";
+import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 const Homepage = () => {
   return (
     <div className="">
       <Banner />
       <PakageCart />
-      <Features/>
-      <Info/>
-      <Mission/>
-      <SlidingImages/>
-      <Solutions/>
-      <Professtional/>
+      <Features />
+      <Info />
+      <Mission />
+      <SlidingImages />
+      <Solutions />
+      <Professtional />
       <div className="bg-[#ddf0f7] w-[100%] flex justify-center py-16">
         <img src={ad} alt="advertaisment" className="w-[64%]" />
       </div>
-      <Makelots/>
-      <Feedback/>
-      <div className="h-96"> 
-
-      </div>
+      <Makelots />
+      <Feedback />
+      <EffectiveWeb />
+      <FAQ />
+      <Footer />
     </div>
   );
 };
