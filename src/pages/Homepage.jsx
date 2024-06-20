@@ -11,6 +11,7 @@ import Professtional from "../components/Professtional";
 import ad from "../images/ad.jpg"
 import Makelots from "../components/Makelots";
 import Feedback from "../components/Feedback";
+import EffectiveWeb from "../components/EffectiveWeb";
 const Homepage = () => {
   return (
     <div className="">
@@ -27,6 +28,7 @@ const Homepage = () => {
       </div>
       <Makelots/>
       <Feedback/>
+      <EffectiveWeb/>
       <div className="h-96"> 
 
       </div>
