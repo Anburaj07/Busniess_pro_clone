@@ -11,7 +11,7 @@ const Navbar = () => {
         <p>Learning Resources</p>
         <p>Portfolio</p>
         <p>About Us</p>
-        <button className='p-2 bg-[#1e83cb] text-white shadow-custom'>CONTACT US</button>
+        <button className='p-2 bg-[#1e83cb] text-white shadow-custom transition-transform duration-300  hover:-translate-y-2'>CONTACT US</button>
     </div>
   )
 }

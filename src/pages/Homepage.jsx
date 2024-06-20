@@ -9,6 +9,8 @@ import SlidingImages from "../components/SlidingImages";
 import Solutions from "../components/Solutions";
 import Professtional from "../components/Professtional";
 import ad from "../images/ad.jpg"
+import Makelots from "../components/Makelots";
+import Feedback from "../components/Feedback";
 const Homepage = () => {
   return (
     <div className="">
@@ -23,6 +25,8 @@ const Homepage = () => {
       <div className="bg-[#ddf0f7] w-[100%] flex justify-center py-16">
         <img src={ad} alt="advertaisment" className="w-[64%]" />
       </div>
+      <Makelots/>
+      <Feedback/>
       <div className="h-96"> 
 
       </div>

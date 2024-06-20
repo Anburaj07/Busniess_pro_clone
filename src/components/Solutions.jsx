@@ -31,7 +31,7 @@ const Solutions = () => {
         </div>
       </div>
       <div>
-      <button className="w-[16%] mt-8 font-medium bg-[#219ebc] text-white p-3 px-8 rounded">
+      <button className="w-[16%] mt-8 font-medium bg-[#219ebc] text-white p-3 px-8 rounded transition-transform duration-300  hover:-translate-y-2">
           START YOUR WEBSITE
         </button>
       </div>
