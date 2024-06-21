@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="flex justify-center bg-[#dcf1f7] relative inline-block ">
       <div className="w-[40%] p-4 mt-6">
-        <p className="text-sm bg-[#1e9eb9] p-1.5 text-white w-[90%] shadow-md">
+        <p className="text-sm bg-[#1e9eb9] p-2 text-white w-[92%] shadow-md">
           ELEVATE YOUR BRAND: PROFESSIONALLY CRAFTED WEBSITE FOR YOUR BUSINESS
         </p>
         <h1 className="font-semibold text-4xl p-2 pb-4">

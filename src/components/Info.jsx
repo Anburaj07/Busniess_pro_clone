@@ -4,13 +4,13 @@ import line from "../images/line.jpg";
 
 const Info = () => {
   return (
-    <div className="w-[81%] m-auto flex justify-around items-center">
+    <div className="w-[81%] m-auto flex justify-around items-center text-[#505050] leading-relaxed">
       <div className="w-[49%]">
         <p className="ml-8">
           *Monthly maintenance fee required to host your website and keep it up
           to date.
         </p>
-        <div className="border border-gray-900 flex justify-between items-center p-4 mt-2 w-[94%] text-base">
+        <div className="border border-gray-900 flex justify-between items-center p-4 mt-2 w-[94%] ">
           <div className="w-[26%]">
             <img src={tq} alt="Thank You" />
           </div>
@@ -22,14 +22,15 @@ const Info = () => {
             </p>
             <p className="mt-4">
               If you would like to donate to our cause please visit{" "}
-              <strong>HERE</strong>. Thank you for your generosity!
+              <strong className="text-black">HERE</strong>. Thank you for your
+              generosity!
             </p>
           </div>
         </div>
       </div>
       <div className="w-[50%] mt-4 text-center">
         <div className="flex justify-center mb-4">
-          <img src={line} alt="EndLine" />
+          <img src={line} alt="DividerLine" />
         </div>
         <i className=" text-lg ">
           “I can’t tell you how much I appriciate your complimentary website
