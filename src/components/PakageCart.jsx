@@ -29,21 +29,24 @@ const packages = [
 
 const PackageCard = ({ title, price, color, features }) => (
   <div className="w-[46%] shadow-lg pb-8">
-    <h1 className={`bg-[${color}] font-semibold text-xl px-8 py-4`}>
-      {title}
-    </h1>
+    <h1 className={`bg-[${color}] font-semibold text-xl px-8 py-4`}>{title}</h1>
     <h1 className="bg-[#454a51] text-white p-8 font-bold text-5xl">
-      ${price.split(".")[0]} <span className="text-lg">{price.split(".")[1]}</span>
+      ${price.split(".")[0]}{" "}
+      <span className="text-lg">{price.split(".")[1]}</span>
     </h1>
     {features.map((feature, index) => (
       <p
         key={index}
-        className={`p-2 ${index !== features.length - 1 ? "border-b-2 border-gray-300" : ""} w-[80%] m-auto`}
+        className={`p-2 ${
+          index !== features.length - 1 ? "border-b-2 border-gray-300" : ""
+        } w-[80%] m-auto`}
       >
         {feature}
       </p>
     ))}
-    <button className={`p-2 px-6 font-medium bg-[${color}] rounded text-white mt-4`}>
+    <button
+      className={`p-2 px-6 font-medium bg-[${color}] rounded text-white mt-4`}
+    >
       START NOW
     </button>
   </div>

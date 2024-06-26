@@ -15,7 +15,11 @@ const Professtional = () => {
         brand visibility driving growth and customer engagement.
       </p>
       <div className="w-[70%] mx-auto flex flex-col lg:flex-row items-center justify-around">
-        <img src={professional} alt="professional" className="w-full lg:w-[45%] mt-8 lg:mt-0" />
+        <img
+          src={professional}
+          alt="professional"
+          className="w-full lg:w-[45%] mt-8 lg:mt-0"
+        />
         <div className="w-full lg:w-[45%] text-left mt-8 lg:mt-0">
           <h2 className="text-xl font-medium mt-4 mb-4">UNLOCKING SUCCESS:</h2>
           <img src={shade} alt="shade" className="ml-8 lg:ml-0 mb-4 lg:mb-0" />
@@ -49,7 +53,7 @@ const StatBox = ({ number, label }) => {
     <div className="w-[33.3%] border-r border-gray-400 p-4 flex flex-col gap-3">
       <p className="text-[#219ebc] font-semibold text-lg">OVER</p>
       <AnimatedNumber end={number} />
-      <p >{label}</p>
+      <p>{label}</p>
     </div>
   );
 };

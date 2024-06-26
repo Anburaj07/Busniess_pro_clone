@@ -25,7 +25,7 @@ const Homepage = () => {
       <SlidingImages />
       <Solutions />
       <Professtional />
-      <Advertaisment/>
+      <Advertaisment />
       <Makelots />
       <Feedback />
       <EffectiveWeb />
